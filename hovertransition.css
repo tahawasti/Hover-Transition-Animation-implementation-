@@ -1,0 +1,19 @@
+.box {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  top: 200px;
+  margin: auto;
+  transition: height width 1s;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(10, 10, 1, 1);
+
+  position: relative;
+}
+
+.box:hover {
+  background-color: blue;
+  width: 550px;
+  height: 550px;
+  top: 200px;
+}
